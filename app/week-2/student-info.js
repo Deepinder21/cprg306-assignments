@@ -6,7 +6,7 @@ export default function Name () {
           <h1>Deepinder Singh Aulakh</h1>
           <ul>
             <li>
-                <Link href = "https://github.com/Deepinder21">Github</Link>
+                <Link href = "https://github.com/Deepinder21/cprg306-assignments">Github</Link>
             </li>
           </ul>
         </main>
