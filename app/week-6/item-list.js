@@ -5,7 +5,7 @@ import Item from "./item";
 const ItemList = ({ items }) => {
   const [sortBy, setSortBy] = useState("name");
 
-  // Create a copy of items to maintain immutability
+
   const sortedItems = [...items].sort((a, b) => {
     if (sortBy === "name") {
       return a.name.localeCompare(b.name);
